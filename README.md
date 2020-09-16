@@ -1,8 +1,6 @@
 # cesium-test
 
-##cesium
-
-  加载谷歌地球影像
+### 加载谷歌地球影像
   
   ``` bash
   var url = "http://mt1.google.cn/vt/lyrs=s&hl=zh-CN&x={x}&y={y}&z={z}&s=Gali"  
@@ -13,7 +11,7 @@
         });
   ```
   
-##控件
+### 控件
   ``` bash
   baseLayerPicker:true,    //图层选择控件  
   animation:true,          //左下角仪表  
