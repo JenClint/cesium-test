@@ -5,9 +5,7 @@
   var url = "http://mt1.google.cn/vt/lyrs=s&hl=zh-CN&x={x}&y={y}&z={z}&s=Gali"
   var google = new Cesium.UrlTemplateImageryProvider({url:url})
   
-  var viewer =new Cesium.Viewer('cesiumContainer',{
-            imageryProvider:google,
-        });
+  var viewer =new Cesium.Viewer('cesiumContainer',{            imageryProvider:google,        });
   
   
 ##控件
