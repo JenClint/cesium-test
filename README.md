@@ -8,7 +8,7 @@
   
   var viewer =new Cesium.Viewer('cesiumContainer',{
         imageryProvider:google,
-        });
+        })
   ```
   
 ### 控件
